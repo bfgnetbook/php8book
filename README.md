@@ -17,7 +17,7 @@ composer install
 ## Config database and execute migrations
 
 - Open /path_myproject/config/appConfig.php and enter your database connection details
-- import blog.sql file
+- Import blog.sql file
 
 ## Test users
 
