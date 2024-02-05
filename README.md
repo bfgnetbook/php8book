@@ -1,6 +1,6 @@
-# Test application based on the book 'WEB DEVELOPMENT WITH PHALCON PHP'.
+# Test application based on the book 'PHP: DE PRINCIPIANTE A EXPERTO EN DESARROLLO WEB '.
 
-Skeleton application using  [Phalcon framework](https://phalcon.io).
+Skeleton application using  [PHP > 8](https://www.php.net).
 
 ## Requirements
 
@@ -11,22 +11,17 @@ Skeleton application using  [Phalcon framework](https://phalcon.io).
 
 ```bash
 cd my-project
-git clone --depth=1 https://github.com/bfgnetbook/phalconbook .
+git clone --depth=1 https://github.com/bfgnetbook/php8book .
 composer install
 ```
 ## Config database and execute migrations
 
-- Open /path_myproject/app/config/config.php and enter your database connection details
-- execute command line: /path_myproject/vendor/bin/phalcon-migrations run
+- Open /path_myproject/config/appConfig.php and enter your database connection details
+- import blog.sql file
 
 ## Test users
 
-- ROL: employed:
-
-username: user
-password: demo
-
-- ROL: manager:
+- ROL: admin:
 
 username: admin
 password: demo
