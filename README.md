@@ -1,6 +1,6 @@
 # Test application based on the book 'PHP: DE PRINCIPIANTE A EXPERTO EN DESARROLLO WEB '.
 
-Skeleton application using  [PHP > 8](https://www.php.net).
+Skeleton application using  [PHP 8](https://www.php.net).
 
 ## Requirements
 
